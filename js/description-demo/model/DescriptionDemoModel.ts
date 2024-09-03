@@ -1,8 +1,6 @@
 // Copyright 2024, University of Colorado Boulder
 
 /**
- * TODO Describe this class and its responsibilities.
- *
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
@@ -12,7 +10,7 @@ import PickRequired from '../../../../phet-core/js/types/PickRequired.js';
 import TModel from '../../../../joist/js/TModel.js';
 
 type SelfOptions = {
-  //TODO add options that are specific to DescriptionDemoModel here
+  // add properties here
 };
 
 type DescriptionDemoModelOptions = SelfOptions & PickRequired<PhetioObjectOptions, 'tandem'>;
@@ -20,14 +18,14 @@ type DescriptionDemoModelOptions = SelfOptions & PickRequired<PhetioObjectOption
 export default class DescriptionDemoModel implements TModel {
 
   public constructor( providedOptions: DescriptionDemoModelOptions ) {
-    //TODO
+    // add code here
   }
 
   /**
    * Resets the model.
    */
   public reset(): void {
-    //TODO
+    // add code here
   }
 
   /**
@@ -35,7 +33,7 @@ export default class DescriptionDemoModel implements TModel {
    * @param dt - time step, in seconds
    */
   public step( dt: number ): void {
-    //TODO
+    // add code here
   }
 }
 

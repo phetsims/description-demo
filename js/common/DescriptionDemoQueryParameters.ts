@@ -11,7 +11,7 @@ import logGlobal from '../../../phet-core/js/logGlobal.js';
 import descriptionDemo from '../descriptionDemo.js';
 
 const SCHEMA_MAP = {
-  //TODO add schemas for query parameters
+  // This is where you add query parameters for your simulation.
 };
 
 const DescriptionDemoQueryParameters = QueryStringMachine.getAll( SCHEMA_MAP );

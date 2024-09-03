@@ -1,8 +1,6 @@
 // Copyright 2024, University of Colorado Boulder
 
 /**
- * TODO Describe this class and its responsibilities.
- *
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
@@ -15,7 +13,7 @@ import DescriptionDemoScreenView from './view/DescriptionDemoScreenView.js';
 import DescriptionDemoStrings from '../DescriptionDemoStrings.js';
 
 type SelfOptions = {
-  //TODO add options that are specific to DescriptionDemoScreen here
+  // Add properties here
 };
 
 type DescriptionDemoScreenOptions = SelfOptions & ScreenOptions;
@@ -27,9 +25,6 @@ export default class DescriptionDemoScreen extends Screen<DescriptionDemoModel, 
     const options = optionize<DescriptionDemoScreenOptions, SelfOptions, ScreenOptions>()( {
       name: DescriptionDemoStrings.screen.nameStringProperty,
 
-      //TODO add default values for optional SelfOptions here
-
-      //TODO add default values for optional ScreenOptions here
       backgroundColorProperty: DescriptionDemoColors.screenBackgroundColorProperty
     }, providedOptions );
 

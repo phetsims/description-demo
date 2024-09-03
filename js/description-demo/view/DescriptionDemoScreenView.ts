@@ -1,8 +1,6 @@
 // Copyright 2024, University of Colorado Boulder
 
 /**
- * TODO Describe this class and its responsibilities.
- *
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
@@ -14,7 +12,7 @@ import DescriptionDemoModel from '../model/DescriptionDemoModel.js';
 import optionize from '../../../../phet-core/js/optionize.js';
 
 type SelfOptions = {
- //TODO add options that are specific to DescriptionDemoScreenView here
+ // add options that are specific to DescriptionDemoScreenView here
 };
 
 type DescriptionDemoScreenViewOptions = SelfOptions & ScreenViewOptions;
@@ -24,10 +22,6 @@ export default class DescriptionDemoScreenView extends ScreenView {
   public constructor( model: DescriptionDemoModel, providedOptions: DescriptionDemoScreenViewOptions ) {
 
     const options = optionize<DescriptionDemoScreenViewOptions, SelfOptions, ScreenViewOptions>()( {
-
-      //TODO add default values for optional SelfOptions here
-
-      //TODO add default values for optional ScreenViewOptions here
     }, providedOptions );
 
     super( options );
@@ -49,7 +43,7 @@ export default class DescriptionDemoScreenView extends ScreenView {
    * Resets the view.
    */
   public reset(): void {
-    //TODO
+    // add code here
   }
 
   /**
@@ -57,7 +51,7 @@ export default class DescriptionDemoScreenView extends ScreenView {
    * @param dt - time step, in seconds
    */
   public override step( dt: number ): void {
-    //TODO
+    // add code here
   }
 }
 

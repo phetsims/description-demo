@@ -9,11 +9,8 @@
 import descriptionDemo from '../descriptionDemo.js';
 
 const DescriptionDemoConstants = {
-
   SCREEN_VIEW_X_MARGIN: 15,
   SCREEN_VIEW_Y_MARGIN: 15
-
-  //TODO
 };
 
 descriptionDemo.register( 'DescriptionDemoConstants', DescriptionDemoConstants );
