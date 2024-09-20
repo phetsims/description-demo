@@ -39,6 +39,11 @@
               "ts-nocheck": true
             }
           ]
+        },
+        "parserOptions": {
+          "project": [
+            "../description-demo/tsconfig.json"
+          ]
         }
       }
     ]
