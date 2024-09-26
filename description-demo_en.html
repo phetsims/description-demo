@@ -36,7 +36,6 @@
         "requirejsNamespace": "DESCRIPTION_DEMO",
         "simulation": true,
         "runnable": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
           "adapted-from-phet"
@@ -45,31 +44,14 @@
         "simFeatures": {
           "supportsDynamicLocale": true
         }
-      },
-      "eslintConfig": {
-        "extends": "../chipper/eslint/sim_eslintrc.js",
-        "overrides": [
-          {
-            "files": [
-              "**/*.ts"
-            ],
-            "rules": {
-              "@typescript-eslint/ban-ts-comment": [
-                "error",
-                {
-                  "ts-expect-error": true,
-                  "ts-ignore": true,
-                  "ts-check": true,
-                  "ts-nocheck": true
-                }
-              ]
-            }
-          }
-        ]
       }
     };
   window.phet.chipper.stringRepos =
     [
+      {
+        "repo": "description-demo",
+        "requirejsNamespace": "DESCRIPTION_DEMO"
+      },
       {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
@@ -77,10 +59,6 @@
       {
         "repo": "scenery-phet",
         "requirejsNamespace": "SCENERY_PHET"
-      },
-      {
-        "repo": "description-demo",
-        "requirejsNamespace": "DESCRIPTION_DEMO"
       },
       {
         "repo": "sun",
