@@ -4,10 +4,10 @@
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
-import descriptionDemo from '../../descriptionDemo.js';
-import { PhetioObjectOptions } from '../../../../tandem/js/PhetioObject.js';
-import PickRequired from '../../../../phet-core/js/types/PickRequired.js';
 import TModel from '../../../../joist/js/TModel.js';
+import PickRequired from '../../../../phet-core/js/types/PickRequired.js';
+import { PhetioObjectOptions } from '../../../../tandem/js/PhetioObject.js';
+import descriptionDemo from '../../descriptionDemo.js';
 
 type SelfOptions = {
   // add properties here

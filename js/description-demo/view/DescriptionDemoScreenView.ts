@@ -5,11 +5,11 @@
  */
 
 import ScreenView, { ScreenViewOptions } from '../../../../joist/js/ScreenView.js';
+import optionize from '../../../../phet-core/js/optionize.js';
 import ResetAllButton from '../../../../scenery-phet/js/buttons/ResetAllButton.js';
 import DescriptionDemoConstants from '../../common/DescriptionDemoConstants.js';
 import descriptionDemo from '../../descriptionDemo.js';
 import DescriptionDemoModel from '../model/DescriptionDemoModel.js';
-import optionize from '../../../../phet-core/js/optionize.js';
 
 type SelfOptions = {
  // add options that are specific to DescriptionDemoScreenView here
