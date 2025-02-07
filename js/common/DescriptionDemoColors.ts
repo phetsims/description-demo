@@ -14,7 +14,7 @@
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
-import { ProfileColorProperty } from '../../../scenery/js/imports.js';
+import ProfileColorProperty from '../../../scenery/js/util/ProfileColorProperty.js';
 import descriptionDemo from '../descriptionDemo.js';
 
 const DescriptionDemoColors = {
