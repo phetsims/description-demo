@@ -6,12 +6,9 @@
  * @author Jesse Greenberg (PhET Interactive Simulations)
  */
 
-import descriptionDemo from '../descriptionDemo.js';
-
 const DescriptionDemoConstants = {
   SCREEN_VIEW_X_MARGIN: 15,
   SCREEN_VIEW_Y_MARGIN: 15
 };
 
-descriptionDemo.register( 'DescriptionDemoConstants', DescriptionDemoConstants );
 export default DescriptionDemoConstants;

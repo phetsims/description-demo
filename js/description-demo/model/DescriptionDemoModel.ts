@@ -7,7 +7,6 @@
 import TModel from '../../../../joist/js/TModel.js';
 import PickRequired from '../../../../phet-core/js/types/PickRequired.js';
 import { PhetioObjectOptions } from '../../../../tandem/js/PhetioObject.js';
-import descriptionDemo from '../../descriptionDemo.js';
 
 type SelfOptions = {
   // add properties here
@@ -36,5 +35,3 @@ export default class DescriptionDemoModel implements TModel {
     // add code here
   }
 }
-
-descriptionDemo.register( 'DescriptionDemoModel', DescriptionDemoModel );

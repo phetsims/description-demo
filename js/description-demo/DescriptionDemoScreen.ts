@@ -7,7 +7,6 @@
 import Screen, { ScreenOptions } from '../../../joist/js/Screen.js';
 import optionize from '../../../phet-core/js/optionize.js';
 import DescriptionDemoColors from '../common/DescriptionDemoColors.js';
-import descriptionDemo from '../descriptionDemo.js';
 import DescriptionDemoStrings from '../DescriptionDemoStrings.js';
 import DescriptionDemoModel from './model/DescriptionDemoModel.js';
 import DescriptionDemoScreenView from './view/DescriptionDemoScreenView.js';
@@ -35,5 +34,3 @@ export default class DescriptionDemoScreen extends Screen<DescriptionDemoModel, 
     );
   }
 }
-
-descriptionDemo.register( 'DescriptionDemoScreen', DescriptionDemoScreen );

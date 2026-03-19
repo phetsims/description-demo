@@ -9,13 +9,10 @@
 
 import logGlobal from '../../../phet-core/js/logGlobal.js';
 import { QueryStringMachine } from '../../../query-string-machine/js/QueryStringMachineModule.js';
-import descriptionDemo from '../descriptionDemo.js';
 
 const DescriptionDemoQueryParameters = QueryStringMachine.getAll( {
   // This is where you add query parameters for your simulation.
 } );
-
-descriptionDemo.register( 'DescriptionDemoQueryParameters', DescriptionDemoQueryParameters );
 
 // Log query parameters
 logGlobal( 'phet.chipper.queryParameters' );

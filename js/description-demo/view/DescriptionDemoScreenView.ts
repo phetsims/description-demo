@@ -8,7 +8,6 @@ import ScreenView, { ScreenViewOptions } from '../../../../joist/js/ScreenView.j
 import optionize from '../../../../phet-core/js/optionize.js';
 import ResetAllButton from '../../../../scenery-phet/js/buttons/ResetAllButton.js';
 import DescriptionDemoConstants from '../../common/DescriptionDemoConstants.js';
-import descriptionDemo from '../../descriptionDemo.js';
 import DescriptionDemoModel from '../model/DescriptionDemoModel.js';
 
 type SelfOptions = {
@@ -53,5 +52,3 @@ export default class DescriptionDemoScreenView extends ScreenView {
     // add code here
   }
 }
-
-descriptionDemo.register( 'DescriptionDemoScreenView', DescriptionDemoScreenView );

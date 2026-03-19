@@ -25,5 +25,4 @@ const DescriptionDemoColors = {
   } )
 };
 
-descriptionDemo.register( 'DescriptionDemoColors', DescriptionDemoColors );
 export default DescriptionDemoColors;
