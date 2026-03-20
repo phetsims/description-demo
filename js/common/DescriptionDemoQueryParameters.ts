@@ -17,6 +17,6 @@ const DescriptionDemoQueryParameters = QueryStringMachine.getAll( {
 // Log query parameters
 logGlobal( 'phet.chipper.queryParameters' );
 logGlobal( 'phet.preloads.phetio.queryParameters' );
-logGlobal( 'phet.descriptionDemo.DescriptionDemoQueryParameters' );
+phet.log && phet.log( `DescriptionDemoQueryParameters: ${JSON.stringify( DescriptionDemoQueryParameters, null, 2 )}` );
 
 export default DescriptionDemoQueryParameters;
