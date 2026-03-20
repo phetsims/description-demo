@@ -22,4 +22,6 @@ type StringsType = {
 
 const DescriptionDemoStrings = getStringModule( 'DESCRIPTION_DEMO' ) as StringsType;
 
+descriptionDemo.register( 'DescriptionDemoStrings', DescriptionDemoStrings );
+
 export default DescriptionDemoStrings;
